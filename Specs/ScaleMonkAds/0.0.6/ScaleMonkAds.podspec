@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'TODO'
   s.license      = 'TODO'
   s.author       = { 'TODO (name)' => 'TODO (email)' }
-  s.source       = { :git => 'git@github.com:scalemonk/mediation-sdk-ios.git', :tag => s.version.to_s }
+  s.source       = { :git => 'git@github.com:scalemonk/mediation-sdk-ios-framework.git', :tag => s.version.to_s }
   s.default_subspec = 'Core'
   s.swift_version = '5.1'
   
