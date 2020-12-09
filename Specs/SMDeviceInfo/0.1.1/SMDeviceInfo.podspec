@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   
   s.source = { :http => 'https://github.com/scalemonk/ios-deviceinfo-framework/releases/download/0.1.1/SMDeviceInfo.framework.zip' }
 
-  core.vendored_frameworks = "SMDeviceInfo.xcframework"
+  s.vendored_frameworks = "SMDeviceInfo.xcframework"
 end
 
