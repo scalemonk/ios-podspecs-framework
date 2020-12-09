@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.1'
   
   s.dependency 'RxSwift', '~> 5'
-  s.dependency 'SMAnalytics' , '~> 0.1.0'
+  s.dependency 'SMAnalytics' , '~> 0.3.0'
   s.dependency 'SMDeviceInfo', '~> 0.1.0'
   s.dependency 'Willow', '~> 5.0'
   s.dependency 'Google-Mobile-Ads-SDK', '7.64.0'
