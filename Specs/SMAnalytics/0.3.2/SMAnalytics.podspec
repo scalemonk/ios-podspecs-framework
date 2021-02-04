@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = 'ScaleMonk'
   s.homepage     = 'https://github.com/scalemonk/ios-analytics-framework.git'
-  s.source       = { :git => 'git@github.com:scalemonk/ios-analytics-framework.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/scalemonk/ios-analytics-framework', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
 
   s.libraries = 'sqlite3', 'z'

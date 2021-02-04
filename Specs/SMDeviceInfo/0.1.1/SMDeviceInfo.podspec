@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license  = 'MIT'
   s.author   = 'ScaleMonk'
   s.homepage = 'https://github.com/scalemonk/ios-deviceinfo-framework.git'
-  s.source   = { :git => 'git@github.com:scalemonk/ios-deviceinfo-framework', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/scalemonk/ios-deviceinfo-framework', :tag => s.version.to_s }
   s.ios.deployment_target = '7.0'
   s.requires_arc = true
 
