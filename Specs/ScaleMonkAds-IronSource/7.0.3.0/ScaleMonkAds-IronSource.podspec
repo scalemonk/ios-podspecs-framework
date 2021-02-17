@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'IronSourceSDK', '7.0.3'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_IronSource.xcframework"
+  s.vendored_framework = "ScaleMonkAds_IronSource/ScaleMonkAds_IronSource.xcframework"
 end

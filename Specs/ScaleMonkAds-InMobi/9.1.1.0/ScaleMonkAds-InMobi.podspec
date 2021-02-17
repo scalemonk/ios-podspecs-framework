@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'InMobiSDK', '9.1.1'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_InMobi.xcframework"
+  s.vendored_framework = "ScaleMonkAds_InMobi/ScaleMonkAds_InMobi.xcframework"
 end

@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'UnityAds', '3.5.1'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_UnityAds.xcframework"
+  s.vendored_framework = "ScaleMonkAds_UnityAds/ScaleMonkAds_UnityAds.xcframework"
 end

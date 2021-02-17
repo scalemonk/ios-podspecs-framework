@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'smaato-ios-sdk', '21.6.10'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_Smaato.xcframework"
+  s.vendored_framework = "ScaleMonkAds_Smaato/ScaleMonkAds_Smaato.xcframework"
 end

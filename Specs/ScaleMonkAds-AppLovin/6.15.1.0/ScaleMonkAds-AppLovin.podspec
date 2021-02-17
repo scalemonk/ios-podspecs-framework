@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'AppLovinSDK', '6.15.1'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_AppLovin.xcframework"
+  s.vendored_framework = "ScaleMonkAds_AppLovin/ScaleMonkAds_AppLovin.xcframework"
 end

@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'Bytedance-UnionAD', '3.3.6.2'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_Tiktok.xcframework"
+  s.vendored_framework = "ScaleMonkAds_Tiktok/ScaleMonkAds_Tiktok.xcframework"
 end

@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'mopub-ios-sdk/Core', '5.14.1'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_MoPub.xcframework"
+  s.vendored_framework = "ScaleMonkAds_MoPub/ScaleMonkAds_MoPub.xcframework"
 end

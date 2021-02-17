@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'Fyber_Marketplace_SDK', '7.8.0'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_Fyber.xcframework"
+  s.vendored_framework = "ScaleMonkAds_Fyber/ScaleMonkAds_Fyber.xcframework"
 end

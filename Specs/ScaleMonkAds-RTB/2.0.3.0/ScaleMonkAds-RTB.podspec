@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'SMAdsRenderer', '2.0.3'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_Renderer.xcframework"
+  s.vendored_framework = "ScaleMonkAds_Renderer/ScaleMonkAds_Renderer.xcframework"
 end

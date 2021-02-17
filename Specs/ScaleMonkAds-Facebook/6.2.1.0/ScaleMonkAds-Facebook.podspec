@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'FBAudienceNetwork', '6.2.1'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_Facebook.xcframework"
+  s.vendored_framework = "ScaleMonkAds_Facebook/ScaleMonkAds_Facebook.xcframework"
 end

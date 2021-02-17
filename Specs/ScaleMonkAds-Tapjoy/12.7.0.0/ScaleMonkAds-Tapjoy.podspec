@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'TapjoySDK', '12.7.0'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_Tapjoy.xcframework"
+  s.vendored_framework = "ScaleMonkAds_Tapjoy/ScaleMonkAds_Tapjoy.xcframework"
 end

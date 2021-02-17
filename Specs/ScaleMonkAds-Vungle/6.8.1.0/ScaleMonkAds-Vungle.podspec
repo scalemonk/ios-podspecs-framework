@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'VungleSDK-iOS', '6.8.1'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_Vungle.xcframework"
+  s.vendored_framework = "ScaleMonkAds_Vungle/ScaleMonkAds_Vungle.xcframework"
 end

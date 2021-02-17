@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'ChartboostSDK', '8.4.0'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_Chartboost.xcframework"
+  s.vendored_framework = "ScaleMonkAds_Chartboost/ScaleMonkAds_Chartboost.xcframework"
 end
