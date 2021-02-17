@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'ScaleMonkAds-MoPub'
+  s.name         = 'ScaleMonkAds-Mopub'
   s.version      = '5.14.1.0'
   s.summary      = 'ScaleMonk Mediation Adapter for MoPub'
   s.homepage     = 'https://www.scalemonk.com'
