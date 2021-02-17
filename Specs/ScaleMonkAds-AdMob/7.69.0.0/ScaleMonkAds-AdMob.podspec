@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'Google-Mobile-Ads-SDK', '7.69.0'
   
   s.static_framework = true
-  s.vendored_framework = "ScaleMonkAds_AdMob.xcframework"
+  s.vendored_framework = "ScaleMonkAds_AdMob/ScaleMonkAds_AdMob.xcframework"
 end
