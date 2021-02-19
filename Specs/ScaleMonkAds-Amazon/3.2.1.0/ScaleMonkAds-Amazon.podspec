@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   
   s.dependency 'ScaleMonkAds', '1.0.0-alpha.2'
   s.dependency 'AmazonPublisherServicesSDK', '3.2.1'
-  s.dependency 'SMAdsRenderer', '2.0.3'
+  s.dependency 'SMAdsRenderer', '2.0.4'
   
   s.static_framework = true
   s.vendored_framework = "ScaleMonkAds_Amazon/ScaleMonkAds_Amazon.xcframework"
