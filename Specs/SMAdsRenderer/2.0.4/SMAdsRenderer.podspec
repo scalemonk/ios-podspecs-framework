@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = 'Commercial'
   s.author       = 'ScaleMonk'
   s.platform     = :ios, '9.0'
-  s.source       = { :http => 'https://github.com/scalemonk/mediation-sdk-ios-framework/releases/download/1.0.0-alpha.2/SMAdsRenderer.zip'}
+  s.source       = { :http => 'https://github.com/scalemonk/mediation-sdk-ios-framework/releases/download/1.0.0-alpha.3/SMAdsRenderer.zip'}
   
   s.ios.deployment_target = '9.0'
   s.requires_arc = true

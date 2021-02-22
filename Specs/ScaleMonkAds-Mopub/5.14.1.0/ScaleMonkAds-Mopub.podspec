@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://www.scalemonk.com'
   s.license      = 'https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html'
   s.authors      = { 'ScaleMonk' => 'mediation@scalemonk.com' }
-  s.source       = { :http => 'https://github.com/scalemonk/mediation-sdk-ios-framework/releases/download/1.0.0-alpha.2/ScaleMonkAds_MoPub.zip'}
+  s.source       = { :http => 'https://github.com/scalemonk/mediation-sdk-ios-framework/releases/download/1.0.0-alpha.3/ScaleMonkAds_MoPub.zip'}
   
   s.swift_version = '5.1'
   s.ios.deployment_target = '10.0'
