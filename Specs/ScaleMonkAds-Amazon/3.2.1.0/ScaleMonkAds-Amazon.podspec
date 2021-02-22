@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
   
-  s.dependency 'ScaleMonkAds', '1.0.0-alpha.2'
+  s.dependency 'ScaleMonkAds', '1.0.0-alpha.3'
   s.dependency 'AmazonPublisherServicesSDK', '3.2.1'
   s.dependency 'SMAdsRenderer', '2.0.4'
   

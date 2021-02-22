@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
   
-  s.dependency 'ScaleMonkAds', '1.0.0-alpha.2'
+  s.dependency 'ScaleMonkAds', '1.0.0-alpha.3'
   s.dependency 'VungleSDK-iOS', '6.8.1'
   
   s.static_framework = true
