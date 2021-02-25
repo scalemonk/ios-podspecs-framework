@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ScaleMonkAds-AdColony'
-  s.version      = '4.3.1.0'
+  s.version      = '4.3.1.1'
   s.summary      = 'ScaleMonk Mediation Adapter for AdColony'
   s.homepage     = 'https://www.scalemonk.com'
   s.license      = 'https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html'
