@@ -1,6 +1,6 @@
 {
     "name": "ScaleMonkAds-Vungle",
-    "version": "6.8.0",
+    "version": "6.8.0.0",
     "summary": "ScaleMonk Mediation Adapter for Vungle",
     "homepage": "https://www.scalemonk.com",
     "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
@@ -8,7 +8,7 @@
         "ScaleMonk": "mediation@scalemonk.com"
     },
     "source": {
-        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-vungle-6.8.0/ScaleMonkAds-Vungle.zip"
+        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-vungle-6.8.0.0/ScaleMonkAds-Vungle.zip"
     },
     "swift_versions": "5.1",
     "platforms": {
