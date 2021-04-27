@@ -1,0 +1,39 @@
+{
+    "name": "ScaleMonkAds-IronSource",
+    "version": "7.1.5.0.0",
+    "summary": "ScaleMonk Mediation Adapter for IronSource",
+    "homepage": "https://www.scalemonk.com",
+    "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
+    "authors": {
+        "ScaleMonk": "mediation@scalemonk.com"
+    },
+    "source": {
+        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-ironsource-7.1.5.0.0/ScaleMonkAds-IronSource.zip"
+    },
+    "swift_versions": "5.1",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "requires_arc": true,
+    "pod_target_xcconfig": {
+        "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+    },
+    "frameworks": [
+        "iAd",
+        "WebKit",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "AdSupport"
+    ],
+    "dependencies": {
+        "IronSourceSDK": [
+            "7.1.5.0"
+        ],
+        "ScaleMonkAds": [
+            "~> 1.0"
+        ]
+    },
+    "static_framework": true,
+    "vendored_frameworks": "ScaleMonkAds-IronSource/ScaleMonkAds-IronSource.xcframework",
+    "swift_version": "5.1"
+}
