@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = 'Commercial'
   s.author       = 'ScaleMonk'
   s.platform     = :ios, '9.0'
-  s.source       = { :http => 'https://github.com/scalemonk/ios-podspecs-framework/releases/download/smadsrenderer-2.0.5/SMAdsRenderer.zip'}
+  s.source       = { :http => 'https://github.com/scalemonk/ios-podspecs-framework/releases/download/smadsrenderer-2.0.6/SMAdsRenderer.zip'}
   
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
