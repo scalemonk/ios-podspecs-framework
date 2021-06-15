@@ -30,7 +30,7 @@
             "6.8.1"
         ],
         "ScaleMonkAds": [
-            "2.0.0"
+            "~> 2"
         ]
     },
     "static_framework": true,
