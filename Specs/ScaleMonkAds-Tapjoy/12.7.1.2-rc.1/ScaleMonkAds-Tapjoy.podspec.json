@@ -1,0 +1,39 @@
+{
+    "name": "ScaleMonkAds-Tapjoy",
+    "version": "12.7.1.2-rc.1",
+    "summary": "ScaleMonk Mediation Adapter for Tapjoy",
+    "homepage": "https://www.scalemonk.com",
+    "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
+    "authors": {
+        "ScaleMonk": "mediation@scalemonk.com"
+    },
+    "source": {
+        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-tapjoy-12.7.1.2-rc.1/ScaleMonkAds-Tapjoy.zip"
+    },
+    "swift_versions": "5.1",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "requires_arc": true,
+    "pod_target_xcconfig": {
+        "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+    },
+    "frameworks": [
+        "iAd",
+        "WebKit",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "AdSupport"
+    ],
+    "dependencies": {
+        "TapjoySDK": [
+            "12.7.1"
+        ],
+        "ScaleMonkAds": [
+            "2.1.0-rc.1"
+        ]
+    },
+    "static_framework": true,
+    "vendored_frameworks": "ScaleMonkAds-Tapjoy/ScaleMonkAds-Tapjoy.xcframework",
+    "swift_version": "5.1"
+}

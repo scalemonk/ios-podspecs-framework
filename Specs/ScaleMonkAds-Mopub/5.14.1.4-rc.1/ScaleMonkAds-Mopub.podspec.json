@@ -1,0 +1,39 @@
+{
+    "name": "ScaleMonkAds-Mopub",
+    "version": "5.14.1.4-rc.1",
+    "summary": "ScaleMonk Mediation Adapter for Mopub",
+    "homepage": "https://www.scalemonk.com",
+    "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
+    "authors": {
+        "ScaleMonk": "mediation@scalemonk.com"
+    },
+    "source": {
+        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-mopub-5.14.1.4-rc.1/ScaleMonkAds-Mopub.zip"
+    },
+    "swift_versions": "5.1",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "requires_arc": true,
+    "pod_target_xcconfig": {
+        "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+    },
+    "frameworks": [
+        "iAd",
+        "WebKit",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "AdSupport"
+    ],
+    "dependencies": {
+        "mopub-ios-sdk/Core": [
+            "~> 5.14.1"
+        ],
+        "ScaleMonkAds": [
+            "2.1.0-rc.1"
+        ]
+    },
+    "static_framework": true,
+    "vendored_frameworks": "ScaleMonkAds-Mopub/ScaleMonkAds-Mopub.xcframework",
+    "swift_version": "5.1"
+}
