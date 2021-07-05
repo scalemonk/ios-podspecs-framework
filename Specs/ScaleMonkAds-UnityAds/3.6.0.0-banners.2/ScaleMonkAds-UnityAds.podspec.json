@@ -27,7 +27,7 @@
     ],
     "dependencies": {
         "ScaleMonkAds": [
-            "2.2.0-banners.1"
+            "2.2.0-banners.2"
         ],
         "UnityAds": [
             "3.6.0"

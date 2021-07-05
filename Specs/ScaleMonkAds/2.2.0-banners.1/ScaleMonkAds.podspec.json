@@ -8,7 +8,7 @@
         "ScaleMonk": "mediation@scalemonk.com"
     },
     "source": {
-        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-2.2.0-banners.1/ScaleMonkAds.zip"
+        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-2.2.0-banners.2/ScaleMonkAds.zip"
     },
     "swift_versions": "5.1",
     "platforms": {
