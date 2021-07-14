@@ -26,6 +26,9 @@
         "AdSupport"
     ],
     "dependencies": {
+        "ScaleMonkAds-AppLovin": [ 
+            "10.2.0.1"
+        ],
         "AppLovinSDK": [
             "10.2.0"
         ],
