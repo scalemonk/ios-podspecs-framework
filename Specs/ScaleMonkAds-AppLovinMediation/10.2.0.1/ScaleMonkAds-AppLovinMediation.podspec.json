@@ -33,22 +33,22 @@
             "10.2.0"
         ],
         "AppLovinMediationGoogleAdapter": [
-            "7.69.0.1"
+            "7.69.0.3"
         ],
         "AppLovinMediationByteDanceAdapter": [
             "3.3.6.2.1"
         ],
         "AppLovinMediationChartboostAdapter": [
-            "8.4.0.1"
+            "8.4.0.2"
         ],
         "AppLovinMediationFacebookAdapter": [
-            "6.2.1.0"
+            "6.2.1.1"
         ],
         "AppLovinMediationFyberAdapter": [
             "7.8.1.0"
         ],
         "AppLovinMediationInMobiAdapter": [
-            "9.1.1.1"
+            "9.1.5.0"
         ],
         "AppLovinMediationIronSourceAdapter": [
             "7.1.5.0.0"
@@ -57,16 +57,16 @@
             "6.9.1.0.0"
         ],
         "AppLovinMediationSmaatoAdapter": [
-            "21.6.10.0"
+            "21.6.10.2"
         ],
         "AppLovinMediationTapjoyAdapter": [
             "12.7.1.2"
         ],
         "AppLovinMediationUnityAdsAdapter": [
-            "3.6.0.0"
+            "3.6.0.1"
         ],
         "AppLovinMediationVungleAdapter": [
-            "6.8.1.0"
+            "6.8.1.5"
         ]
     },
     "static_framework": true,
