@@ -1,0 +1,75 @@
+{
+    "name": "ScaleMonkAds-AppLovinMediation",
+    "version": "10.2.0.3-rc.1",
+    "summary": "ScaleMonk Mediation Adapter for AppLovinMediation",
+    "homepage": "https://www.scalemonk.com",
+    "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
+    "authors": {
+        "ScaleMonk": "mediation@scalemonk.com"
+    },
+    "source": {
+        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-applovinmediation-10.2.0.3-rc.1/ScaleMonkAds-AppLovinMediation.zip"
+    },
+    "swift_versions": "5.1",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "requires_arc": true,
+    "pod_target_xcconfig": {
+        "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+    },
+    "frameworks": [
+        "iAd",
+        "WebKit",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "AdSupport"
+    ],
+    "dependencies": {
+        "AppLovinSDK": [
+            "10.2.0"
+        ],
+        "AppLovinMediationGoogleAdapter": [
+            "8.7.0.0"
+        ],
+        "AppLovinMediationByteDanceAdapter": [
+            "3.3.6.2.1"
+        ],
+        "AppLovinMediationChartboostAdapter": [
+            "8.4.0.2"
+        ],
+        "AppLovinMediationFacebookAdapter": [
+            "6.2.1.1"
+        ],
+        "AppLovinMediationFyberAdapter": [
+            "7.8.1.0"
+        ],
+        "AppLovinMediationInMobiAdapter": [
+            "9.1.7.0"
+        ],
+        "AppLovinMediationIronSourceAdapter": [
+            "7.1.5.0.0"
+        ],
+        "AppLovinMediationMintegralAdapter": [
+            "6.9.1.0.0"
+        ],
+        "AppLovinMediationSmaatoAdapter": [
+            "21.6.10.2"
+        ],
+        "AppLovinMediationTapjoyAdapter": [
+            "12.7.1.2"
+        ],
+        "AppLovinMediationUnityAdsAdapter": [
+            "3.6.0.1"
+        ],
+        "AppLovinMediationVungleAdapter": [
+            "6.8.1.5"
+        ],
+        "ScaleMonkAds": [
+            "3.0.0-rc.1"
+        ]
+    },
+    "static_framework": true,
+    "vendored_frameworks": "ScaleMonkAds-AppLovinMediation/ScaleMonkAds-AppLovinMediation.xcframework",
+    "swift_version": "5.1"
+}
