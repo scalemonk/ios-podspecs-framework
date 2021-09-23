@@ -30,7 +30,7 @@
             "5.10.2"
         ],
         "ScaleMonkAds": [
-            "~> 4"
+            "4.0.0-mytarget"
         ]
     },
     "static_framework": true,
