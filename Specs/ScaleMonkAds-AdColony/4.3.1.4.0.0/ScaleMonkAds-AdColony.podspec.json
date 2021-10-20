@@ -1,0 +1,39 @@
+{
+    "name": "ScaleMonkAds-AdColony",
+    "version": "4.3.1.4.0.0",
+    "summary": "ScaleMonk Mediation Adapter for AdColony",
+    "homepage": "https://www.scalemonk.com",
+    "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
+    "authors": {
+        "ScaleMonk": "mediation@scalemonk.com"
+    },
+    "source": {
+        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-adcolony-4.3.1.4.0.0/ScaleMonkAds-AdColony.zip"
+    },
+    "swift_versions": "5.1",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "requires_arc": true,
+    "pod_target_xcconfig": {
+        "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+    },
+    "frameworks": [
+        "iAd",
+        "WebKit",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "AdSupport"
+    ],
+    "dependencies": {
+        "AdColony": [
+            "4.3.1"
+        ],
+        "ScaleMonkAds": [
+            "~> 4"
+        ]
+    },
+    "static_framework": true,
+    "vendored_frameworks": "ScaleMonkAds-AdColony/ScaleMonkAds-AdColony.xcframework",
+    "swift_version": "5.1"
+}
