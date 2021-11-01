@@ -1,0 +1,39 @@
+{
+    "name": "ScaleMonkAds-Fyber",
+    "version": "7.8.1.6.0.0-rc.1",
+    "summary": "ScaleMonk Mediation Adapter for Fyber",
+    "homepage": "https://www.scalemonk.com",
+    "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
+    "authors": {
+        "ScaleMonk": "mediation@scalemonk.com"
+    },
+    "source": {
+        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-fyber-7.8.1.6.0.0-rc.1/ScaleMonkAds-Fyber.zip"
+    },
+    "swift_versions": "5.1",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "requires_arc": true,
+    "pod_target_xcconfig": {
+        "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+    },
+    "frameworks": [
+        "iAd",
+        "WebKit",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "AdSupport"
+    ],
+    "dependencies": {
+        "Fyber_Marketplace_SDK": [
+            "7.8.1"
+        ],
+        "ScaleMonkAds": [
+            "6.0.0-rc.1"
+        ]
+    },
+    "static_framework": true,
+    "vendored_frameworks": "ScaleMonkAds-Fyber/ScaleMonkAds-Fyber.xcframework",
+    "swift_version": "5.1"
+}
