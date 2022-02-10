@@ -1,0 +1,39 @@
+{
+    "name": "ScaleMonkAds-Yandex",
+    "version": "4.4.1.6.4.0-rc.1",
+    "summary": "ScaleMonk Mediation Adapter for Yandex",
+    "homepage": "https://www.scalemonk.com",
+    "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
+    "authors": {
+        "ScaleMonk": "mediation@scalemonk.com"
+    },
+    "source": {
+        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-yandex-4.4.1.6.4.0-rc.1/ScaleMonkAds-Yandex.zip"
+    },
+    "swift_versions": "5.1",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "requires_arc": true,
+    "pod_target_xcconfig": {
+        "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+    },
+    "frameworks": [
+        "iAd",
+        "WebKit",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "AdSupport"
+    ],
+    "dependencies": {
+        "YandexMobileAds": [
+            "4.4.1"
+        ],
+        "ScaleMonkAds": [
+            "6.4.0-rc.1"
+        ]
+    },
+    "static_framework": true,
+    "vendored_frameworks": "ScaleMonkAds-Yandex/ScaleMonkAds-Yandex.xcframework",
+    "swift_version": "5.1"
+}
