@@ -1,0 +1,39 @@
+{
+    "name": "ScaleMonkAds-Facebook",
+    "version": "6.11.1.7.0.0-rc.3",
+    "summary": "ScaleMonk Mediation Adapter for Facebook",
+    "homepage": "https://www.scalemonk.com",
+    "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
+    "authors": {
+        "ScaleMonk": "mediation@scalemonk.com"
+    },
+    "source": {
+        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-facebook-6.11.1.7.0.0-rc.3/ScaleMonkAds-Facebook.zip"
+    },
+    "swift_versions": "5.1",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "requires_arc": true,
+    "pod_target_xcconfig": {
+        "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+    },
+    "frameworks": [
+        "iAd",
+        "WebKit",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "AdSupport"
+    ],
+    "dependencies": {
+        "FBAudienceNetwork": [
+            "6.11.1"
+        ],
+        "ScaleMonkAds": [
+            "7.0.0-rc.1"
+        ]
+    },
+    "static_framework": true,
+    "vendored_frameworks": "ScaleMonkAds-Facebook/ScaleMonkAds-Facebook.xcframework",
+    "swift_version": "5.1"
+}
