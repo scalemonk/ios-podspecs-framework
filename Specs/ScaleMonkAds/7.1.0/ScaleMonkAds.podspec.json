@@ -1,0 +1,45 @@
+{
+    "name": "ScaleMonkAds",
+    "version": "7.1.0",
+    "summary": "ScaleMonk Mediation for iOS",
+    "homepage": "https://www.scalemonk.com",
+    "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
+    "authors": {
+        "ScaleMonk": "mediation@scalemonk.com"
+    },
+    "source": {
+        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-7.1.0/ScaleMonkAds.zip"
+    },
+    "swift_versions": "5.1",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "requires_arc": true,
+    "pod_target_xcconfig": {
+        "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+    },
+    "frameworks": [
+        "iAd",
+        "WebKit",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "AdSupport"
+    ],
+    "dependencies": {
+        "RxSwift": [
+            "~> 5"
+        ],
+        "SMDeviceInfo": [
+            "~> 0.1"
+        ],
+        "SMAdsRenderer": [
+            "~> 2.0"
+        ],
+        "Willow": [
+            "~> 5.0"
+        ]
+    },
+    "static_framework": true,
+    "vendored_frameworks": "ScaleMonkAds/ScaleMonkAds.xcframework",
+    "swift_version": "5.1"
+}
