@@ -1,0 +1,42 @@
+{
+    "name": "ScaleMonkAds-Ogury",
+    "version": "2.5.1.8.0.0-rc.0",
+    "summary": "ScaleMonk Mediation Adapter for Ogury",
+    "homepage": "https://www.scalemonk.com",
+    "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
+    "authors": {
+        "ScaleMonk": "mediation@scalemonk.com"
+    },
+    "source": {
+        "http": "https://github.com/scalemonk/ios-podspecs-framework/releases/download/scalemonkads-ogury-2.5.1.8.0.0-rc.0/ScaleMonkAds-Ogury.zip"
+    },
+    "swift_versions": "5.1",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "requires_arc": true,
+    "pod_target_xcconfig": {
+        "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+    },
+    "frameworks": [
+        "iAd",
+        "WebKit",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "AdSupport"
+    ],
+    "dependencies": {
+        "OguryAds": [
+            "2.5.1"
+        ],
+        "OguryChoiceManager": [
+            "3.1.8"
+        ],
+        "ScaleMonkAds": [
+            "8.0.0-rc.0"
+        ]
+    },
+    "static_framework": true,
+    "vendored_frameworks": "ScaleMonkAds-Ogury/ScaleMonkAds-Ogury.xcframework",
+    "swift_version": "5.1"
+}
